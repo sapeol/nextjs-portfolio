@@ -60,7 +60,21 @@ a {
     background-color: #1a1a1a;
     color: azure;
   }
-  .ikks_accent:hover {
+  /* accent colors  */
+  .smoketip_accent {
+    text-underline-offset: 5px;
+    text-decoration: #9552df underline wavy;
+  }
+  .reinventu_accent {
+    text-underline-offset: 5px;
+    text-decoration: #dd4398 underline wavy;
+  }
+  .bahiadays_accent {
+    text-underline-offset: 5px;
+    text-decoration: #e8dccc underline wavy;
+  }
+
+  .ikks_accent {
     text-decoration: #fff underline wavy;
   }
 }
