@@ -6,7 +6,7 @@ function work() {
   return (
     <>
       <Head>
-        <title>Sudeep Kuchara | work</title>
+        <title>Work | Sudeep Kuchara </title>
         <meta name="description" content="Developer portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sudeep Kuchara</title>
+        <title>Home | Sudeep Kuchara</title>
         <meta name="description" content="Developer portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

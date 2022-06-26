@@ -17,17 +17,6 @@
   display: contents;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
@@ -95,6 +84,12 @@
 /* hero */
 
 .text_accent {
+  text-decoration: var(--neon) underline wavy;
+}
+
+/* link color  */
+.link:hover {
+  text-underline-offset: 5px;
   text-decoration: var(--neon) underline wavy;
 }
 
