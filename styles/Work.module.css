@@ -1,3 +1,6 @@
+.work_type {
+  margin-bottom: 1rem;
+}
 .porfolio_items {
   display: flex;
   flex-wrap: wrap;

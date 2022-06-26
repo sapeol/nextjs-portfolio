@@ -9,7 +9,7 @@ function Header() {
       {/* <Link href="/experiments">Experiments</Link> */}
 
       <Link href="/contact">Contact me</Link>
-      <Link href="/blogs">Blogs</Link>
+      {/* <Link href="/blogs">Blogs</Link> */}
     </nav>
   );
 }
