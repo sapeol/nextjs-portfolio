@@ -30,7 +30,11 @@ function work() {
             <p>
               {" "}
               Thoughts | Role : First ever project, I built the first, second
-              and final iteration of its frontend
+              and final iteration of its frontend website. The development
+              process was quite fun, the bug fixing at times was getting
+              satisfying and annoying at the same time. The client was quite
+              understanding to work with despite it being completed couple days
+              later than originally planned.
             </p>
           </div>
         </div>
@@ -52,7 +56,7 @@ function work() {
               freelance contractor via codersh web services to built their
               mariniere colab collection page. All communication held through
               slack, it was quite fun to to work with two french founders and in
-              the end it was one of my most memorable experience{" "}
+              the end it was one of my most memorable experience.{" "}
             </p>
           </div>
         </div>
@@ -69,6 +73,12 @@ function work() {
             <p className={styles.porfolio_content_span}>
               Florida based fitness influencer supplements store
             </p>
+            <p>
+              Thoughts | Role : Possibly the longest and my most involved
+              project which is still in continous development and functional
+              feature iterations. I was its lead developer who worked alongside
+              with couple designers and project manager.
+            </p>
           </div>
         </div>
         <div className={styles.porfolio_item}>
@@ -83,6 +93,13 @@ function work() {
             </a>
             <p className={styles.porfolio_content_span}>
               Latina mom owned baby boy clothing store
+            </p>
+            <p>
+              Thoughts | Role : It was quite short but a fun project. Julia sent
+              us a pretty neat design file and she was very adamant about its
+              implmentation being so perfect that we had to spend the entire day
+              on figuring out the bug that was making the font-weight just a
+              little thinner, haha.
             </p>
           </div>
         </div>
