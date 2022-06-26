@@ -11,3 +11,12 @@
 .porfolio_content p {
   margin-top: 2rem;
 }
+
+@media (max-width: 600px) {
+  .porfolio_item {
+    height: 50vh;
+    padding: unset;
+    margin-bottom: 2rem;
+    flex-basis: 100%;
+  }
+}
