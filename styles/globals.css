@@ -78,6 +78,11 @@ a {
     text-decoration: #fff underline wavy;
   }
 }
+@media (max-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
 
 /* navigation */
 nav.main {
