@@ -93,6 +93,25 @@
   text-decoration: var(--neon) underline wavy;
 }
 
+/* tools
+ */
+.tools_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tool_item {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  background: #abed6936;
+  border-radius: 26px;
+  border: 3px solid gray;
+  flex-basis: 275px;
+  align-items: center;
+  padding: 4rem;
+  margin: 1rem;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
