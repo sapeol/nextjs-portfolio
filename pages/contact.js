@@ -12,27 +12,27 @@ function contact() {
       </Head>
 
       <section>
-        <h1 className={styles.title}>Ways you can reach me </h1>
+        <h1 className="title">Ways you can reach me </h1>
         <br />
         <br />
-        <p className={styles.title}>
+        <p className="title">
           You can reach through{" "}
-          <a className={styles.link} href="https://twitter.com/sudeepkuchara_">
+          <a className="link" href="https://twitter.com/sudeepkuchara_">
             Twitter
           </a>
           ,{" "}
           <a
-            className={styles.link}
+            className="link"
             href="https://www.linkedin.com/in/sudeep-kuchara-a52501190/"
           >
             Linkedin
           </a>
           ,{" "}
-          <a className={styles.link} href="">
+          <a className="link" href="">
             behance
           </a>{" "}
           and{" "}
-          <a className={styles.link} href="https://dribbble.com/monslisasdaddy">
+          <a className="link" href="https://dribbble.com/monslisasdaddy">
             dribble
           </a>
           .

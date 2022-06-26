@@ -17,12 +17,6 @@
   display: contents;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -84,12 +78,6 @@
 /* hero */
 
 .text_accent {
-  text-decoration: var(--neon) underline wavy;
-}
-
-/* link color  */
-.link:hover {
-  text-underline-offset: 5px;
   text-decoration: var(--neon) underline wavy;
 }
 

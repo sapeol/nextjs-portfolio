@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className="title">
           I&apos;m <span className={styles.text_accent}> sudeep kuchara</span>,
           a passionate frontend developer who loves to work with react, nodejs
           and typescript.
@@ -145,7 +145,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="spotify">
+      <section className="spotify hide">
         <h3>
           Music : I love music, it&apos;s just something that i just can&apos;t
           live without.

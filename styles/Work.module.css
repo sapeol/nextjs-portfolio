@@ -1,0 +1,13 @@
+.porfolio_items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.porfolio_item {
+  height: 50vh;
+  padding: 0 2rem 0 0;
+  flex-basis: 50%;
+}
+.porfolio_content p {
+  margin-top: 2rem;
+}
