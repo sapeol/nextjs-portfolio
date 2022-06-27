@@ -105,4 +105,14 @@
     width: 100%;
     flex-direction: column;
   }
+  .tool_item {
+    flex-basis: 129px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .tool_item {
+    flex-basis: 115px;
+  }
 }
