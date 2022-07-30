@@ -1,18 +1,10 @@
-import Head from "next/head";
 import React from "react";
-import Image from "next/image";
-
 import styles from "../styles/Work.module.css";
+import Layout from "../components/Layout";
 
 function work() {
   return (
-    <>
-      <Head>
-        <title>Work | Sudeep Kuchara </title>
-        <meta name="description" content="Developer portfolio" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout title="Work | Sudeep Kuchara" content="Developer Portfolio">
       <section>
         <h2 className={"title " + styles.work_type}>Work Projects</h2>
         <div className={styles.porfolio_items}>
@@ -135,7 +127,7 @@ function work() {
           </div>
         </div>
       </section> */}
-    </>
+    </Layout>
   );
 }
 

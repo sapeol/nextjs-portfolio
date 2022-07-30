@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Date from "../components/date";
 import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
 
 function blogs({ allPostsData }) {
   return (
@@ -12,15 +13,12 @@ function blogs({ allPostsData }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>
-        <h1 className="title">Blogs</h1>
+      <section className="blogs-archive">
         {allPostsData.map(({ id, date, title }) => (
           <li key={id}>
-            {title}
-            <br />
-            {id}
-            <br />
-            {date}
+            <Link href={`blogs/${id}`}>{title}</Link>
+            {/* <Link href={id}>{title}</Link> */}
+            <Date dateString={date} />
           </li>
         ))}
       </section>
